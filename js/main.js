@@ -1,5 +1,10 @@
-function loadToolTips()
-{
-    var teste = "Events: 300";
-    $("#card1").tooltip(teste);
+$(document).ready(function () {
+    
+});
+
+
+function loadToolTips() {
+    //aplica tooltip em todos os divs que tenham o atributo definido 'data-enable-tooltip' como true.
+    $('div[data-enable-tooltip="true"]').tooltip();
 }
+
